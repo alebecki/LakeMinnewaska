@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 1100affb5ddd2f64c968c6b03c823966, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: a4a9fc35c05d3cd429e3e7f915199876, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: ad102c53f84ab274b8b056499d065731, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionNormal1:
+        m_Texture: {fileID: 2800000, guid: f6bcb2ca61637da4fad722a6a68f9b17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionNormal2:
+        m_Texture: {fileID: 2800000, guid: 058f0acb6bfbfc044806f23a1787bacc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormal1:
+        m_Texture: {fileID: 2800000, guid: c8815aaca8636fb40a364b3fc49f771b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormal2:
+        m_Texture: {fileID: 2800000, guid: 03599fb281e4e6443b73b26e98673e92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormalMain:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _ColorMask: -1.41
+    - _Depth: 0.94
+    - _Displacement: -0.14
+    - _DisplacementAmplitude: 0.0015
+    - _DisplacementFrequency: 11.97
+    - _DisplacementScale: 1
+    - _DisplacementSpeed: 2
+    - _Distance: 2.51
+    - _Float: 0
+    - _FoamIntensity: 0.8
+    - _FoamLine: 1
+    - _FoamLineSpeed: 0.1
+    - _FoamTextureScale: 28.3
+    - _FoamTextureScaleX: 120.9
+    - _FoamTextureScaleY: 46.8
+    - _FoamTextureSpeed: 13.8
+    - _FoamThreshold: 0.5
+    - _Glossiness: 0.95
+    - _Metallic: 0
+    - _RefractionSpeed: 0
+    - _RefractionSpeed1: 0.1
+    - _RefractionSpeed2: 0.1
+    - _RefractionStrength: 0.25
+    - _RefractionStrength1: 1
+    - _RefractionStrength2: 1
+    - _Smoothness: 0.9
+    - _Strengrh: 1
+    - _Strength: 0.95
+    - _WaveScale1: 2
+    - _WaveScale2: 1
+    - _WaveSpeed1: 2
+    - _WaveSpeed2: 1.4
+    - _WaveStrength1: 0.44
+    - _WaveStrength2: 0.9
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 0.03236246, a: 1}
+    - _DeepColor: {r: 0.22957455, g: 0.6320754, b: 0.5077637, a: 0.8509804}
+    - _RefractionScale: {r: 0, g: 0, b: 0, a: 0}
+    - _RefractionScale1: {r: 1, g: 1, b: 0, a: 0}
+    - _RefractionScale2: {r: 1, g: 1, b: 0, a: 0}
+    - _SurfaceColor: {r: 1, g: 1, b: 1, a: 0.7882353}
+  m_BuildTextureStacks: []
+--- !u!114 &5653887389131940018
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
