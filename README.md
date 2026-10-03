@@ -1,1 +1,1 @@
-# LakeMinnewaska
+# LakeMinnewaska Fishing Prototype
